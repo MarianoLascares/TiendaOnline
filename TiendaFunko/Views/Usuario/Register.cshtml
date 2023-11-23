@@ -1,0 +1,38 @@
+﻿@model TiendaFunko.Models.Usuario
+
+<main class="container login-container">
+    <h1 class="title-container-h1">CREA TU CUENTA</h1>
+    <p class="title-container-h1">Completa el formulario para ser parte del mundo de los Funkos</p>
+    <form asp-action="Register" class="form-admin">
+        <div class="form-admin__product-details login-container__details">
+            <label asp-for="Nombre">Nombre:</label>
+            <input class="admin-input" type="text" asp-for="Nombre" name="Nombre" id="Nombre" placeholder="John">
+        </div>
+        <div class="form-admin__product-details login-container__details">
+            <label asp-for="Apellido">Apellido:</label>
+            <input class="admin-input" asp-for="Apellido" type="text" name="Apellido" id="Apellido" placeholder="Doe">
+        </div>
+        <div class="form-admin__product-details login-container__details">
+            <label asp-for="Direccion">Direccion:</label>
+            <input class="admin-input" asp-for="Direccion" type="text" name="Direccion" id="Direccion" placeholder="Calle y Numero">
+        </div>
+        <div class="form-admin__product-details login-container__details">
+            <label asp-for="Email">Email:</label>
+            <input class="admin-input" asp-for="Email" type="email" name="Email" id="Email" placeholder="ejemplo@correo.com">
+        </div>
+        <div class="form-admin__product-details login-container__details">
+            <label asp-for="Password">Contraseña:</label>
+            <input class="admin-input" asp-for="Password" type="password" name="Password" id="Password" placeholder="**********">
+        </div>
+        <div class="form-admin__product-details login-container__details">
+            <label for="passR">Repita Contraseña:</label>
+            <input class="admin-input" type="password" name="passR" id="passR" placeholder="**********">
+        </div>
+        <div class="form-admin__product-details login-container-buttons">
+            <button class="form-admin__btn login-container-buttons__btn" type="submit">REGISTRAR</button>
+            <input class="login-container-buttons__btn-checkbox" type="checkbox" name="TyC" id="TyC">
+            <label for="rememberme" class="check-loguin">Acepto <a href="#">Terminos y Condiciones</a></label>
+        </div>
+    </form>
+
+</main>

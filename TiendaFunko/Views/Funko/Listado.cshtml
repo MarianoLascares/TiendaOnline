@@ -1,0 +1,46 @@
+﻿@model IEnumerable<TiendaFunko.Models.Funko>
+
+<main class="container">
+    <div class="buscador">
+        <iconify-icon class="search-icon" icon="material-symbols:search"></iconify-icon>
+        <input type="text" class="search-input" name="" id="" placeholder="codigo, nombre o categoria">
+    </div>
+    <div class="title-container">
+        <h1 class="title-container-h1">
+            LISTADO DE PRODUCTOS</h1>
+            <div class="add-container">
+                <h2>AGREGAR</h2>
+                <a asp-action="Create">
+                    <button class="add-listado_button">
+                        <iconify-icon class="add-icon" icon="mingcute:add-fill"></iconify-icon>
+                    </button>
+                </a>
+            </div>
+    </div>
+    <table class="tabla-listado">
+        <tr class="tabla-listado_tr">
+            <th>ID</th>
+            <th>Codigo</th>
+            <th>Nombre del Producto</th>
+            <th>Categoria</th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model){
+        <tr class="tabla-listado_tr">
+            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.SKU)</td>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.ClasificacionNavigation.Descripcion)</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">
+                    <iconify-icon class="edit-icon" icon="ic:baseline-edit"></iconify-icon>
+                </a>
+                <a asp-action="Delete" asp-route-id="@item.Id">
+                    <iconify-icon class="delete-icon" icon="material-symbols:delete"></iconify-icon>
+                </a>
+            </td>
+        </tr>
+        }
+    </table>
+
+</main>

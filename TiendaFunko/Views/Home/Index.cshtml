@@ -1,0 +1,78 @@
+﻿@model IEnumerable<TiendaFunko.Models.Funko>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section class="hero">
+    <article class="hero__content container">
+        <h3 class="hero__title">Nuevos Ingresos</h3>
+        <p class="hero__text">Descubrí el próximo Funko Pop de tu colección</p>
+        <a class="hero__link" asp-controller="Funko" asp-action="Shop">SHOP</a>
+    </article>
+</section>
+<main class="main-container">
+    <section class="collection container">
+        <article class="collection__content">
+            <h3 class="collection__title">Star Wars & The Mansalorian</h3>
+            <p class="collection__text">Disfruta de una saga que sigue agregando personajes a su colección.</p>
+            <a class="collection__link" asp-controller="Funko" asp-action="Shop">VER COLECCIÓN</a>
+        </article>
+        <picture class="collection__cover">
+            <img src="img/star-wars/baby-yoda-1.webp"
+                 alt="Figura coleccionable Funko de Grogu de la serie The Mandalorian">
+        </picture>
+    </section>
+    <section class="collection container">
+        <article class="collection__content">
+            <h3 class="collection__title">POKÉMON ÍNDIGO</h3>
+            <p class="collection__text">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
+            <a class="collection__link" asp-controller="Funko" asp-action="Shop">VER COLECCIÓN</a>
+        </article>
+        <picture class="collection__cover">
+            <img src="img/pokemon/vulpix-1.webp" alt="Figura coleccionable Funko de Vulpix de la serie Pokémon">
+        </picture>
+    </section>
+    <section class="collection container">
+        <article class="collection__content">
+            <h3 class="collection__title">HARRI POTTER</h3>
+            <p class="collection__text">Revive los recuerdos de una saga llena de magia y encanto.</p>
+            <a class="collection__link" asp-controller="Funko" asp-action="Shop">VER COLECCIÓN</a>
+        </article>
+        <picture class="collection__cover">
+            <img src="img/harry-potter/snape-patronus-1.webp"
+                 alt="Figura coleccionable Funko del Patronus de Snape en la pelicula de Harry Potter">
+        </picture>
+    </section>
+    <section class="slider container glide">
+        <h2 class="slider__title">Últimos Lanzamientos</h2>
+        <div class="glide__track" data-glide-el="track">
+            <ul class="slider__items glide__slides">
+                @foreach(var item in Model){
+                <li class="slider__item glide__slide">
+                    <article class="card-item">
+                            <a class="card-item__link" asp-controller="Funko" asp-action="Item" asp-route-id="@item.Id">
+                            <picture class="card-item__cover">
+                                <span class="card-item__tag">Nuevo</span>
+                                    <img class="card-item__img--front" src="@Html.DisplayFor(modelItem => item.Img)"
+                                         alt="@Html.DisplayFor(modelItem => item.DescriptionImg)">
+                                    <img class="card-item__img--back" src="@Html.DisplayFor(modelItem => item.ImgCaja)"
+                                         alt="@Html.DisplayFor(modelItem => item.DescriptionImgCaja)">
+                            </picture>
+                            <div class="card-item__content">
+                                    <p class="card-item__licence">@Html.DisplayFor(modelItem => item.ClasificacionNavigation.Descripcion)</p>
+                                    <p class="card-item__name">@Html.DisplayFor(modelItem => item.Name)</p>
+                                    <p class="card-item__price">$ @Html.DisplayFor(modelItem => item.Price).-</p>
+                                <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
+                            </div>
+                        </a>
+                    </article>
+                </li>
+                }
+            </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon icon="tabler:chevron-left"></iconify-icon></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="tabler:chevron-right"></iconify-icon></button>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TiendaFunko</title>
+    <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TiendaFunko.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@glidejs/glide/dist/css/glide.theme.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@@glidejs/glide" asp-append-version="true"></script>
+    <script src="~/js/glide.js" asp-append-version="true"></script>
+</head>
+<body>
+    <header>
+        <nav class="nabvar container">
+            <div class="nabvar__logo">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="~/img/branding/logo_light_horizontal.svg" alt="Logotipo de la Marca Funko">
+                </a>
+            </div>
+            <ul class="nabvar__menu">
+                @if (Context.Session.GetInt32("credencial") == 1)
+                {
+                <li class="nabvar__item with-submenu">
+                    <a asp-controller="Funko" asp-action="Listado" class="nabvar__link with-icon">
+                        ADMIN<iconify-icon icon="tabler:chevron-down"></iconify-icon>
+                    </a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a asp-controller="Funko" asp-action="Listado" class="submenu__link">
+                                Listado de Funkos
+                            </a>
+                        </li>
+                        <li class="submenu__item">
+                            <a asp-controller="Usuario" asp-action="Register" class="submenu__link">
+                                Registrar Usuario
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                }
+                <li class="nabvar__item with-submenu">
+                    <a asp-controller="Funko" asp-action="Shop" class="nabvar__link with-icon">
+                        SHOP<iconify-icon icon="tabler:chevron-down"></iconify-icon>
+                    </a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a asp-controller="Funko" asp-action="Shop" class="submenu__link">
+                                Funkos
+                            </a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__link">
+                                Remeras
+                            </a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="#" class="submenu__link">
+                                Llaveros
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nabvar__item">
+                    <a href="pages/admin/contact.html" class="nabvar__link">CONTACTO</a>
+                </li>
+                
+                @if (Context.Session.GetString("usuario") == null)
+                {
+                    <li class="nabvar__item">
+                        <a asp-controller="Usuario" asp-action="Login" class="nabvar__link">LOGIN</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nabvar__item">
+                        <a asp-controller="Usuario" asp-action="Logout" class="nabvar__link">LOGOUT</a>
+                    </li>
+                }
+                <li class="nabvar__item">
+                    <a asp-controller="Facturacion" asp-action="Cart" class="nabvar__cart">
+                        <img src="~/img/icons/cart-icon.svg" alt="Icono de carrito">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <nav class="nabvar container">
+            <ul class="nabvar__item">
+                <li class="nabvar__item">
+                    <a class="nabvar__link" asp-controller="Funko" asp-action="Shop">SHOP</a>
+                </li>
+                <li class="nabvar__item">
+                    <a class="nabvar__link" asp-controller="Usuario" asp-action="Register">REGISTRARSE</a>
+                </li>
+                <li class="nabvar__item">
+                    <a class="nabvar__link" asp-controller="Usuario" asp-action="Login">LOGIN</a>
+                </li>
+                <li class="nabvar__item">
+                    <a class="nabvar__link" href="/pages/admin/contact.html">CONTACTO</a>
+                </li>
+            </ul>
+            <picture>
+                <img src="~/img/branding/isotype.svg" alt="isotipo de la marca Funkoshop">
+            </picture>
+        </nav>
+        <p class="footer__copy">All rights 2023 - Funkoshop &copy;</p>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/item.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

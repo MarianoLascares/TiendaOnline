@@ -1,0 +1,61 @@
+﻿@model TiendaFunko.Models.Funko
+
+<main class="container">
+    <h1 class="title-create">EDITAR ITEM</h1>
+    <form asp-action="Edit" class="form-admin" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <div class="form-admin__select">
+            <label for="category">Categoría: </label>
+            <select name="category" id="category">
+                <option disabled selected>Seleccionar</option>
+                <option value="star-wars"></option>
+                <option value="pokemon"></option>
+                <option value="harry-potter"></option>
+            </select>
+            <label asp-for="ClasificacionId">Licencia: </label>
+            <select name="ClasificacionId" asp-items="ViewBag.ListaClasificacion"></select>
+        </div>
+        <div class="form-admin__product-details">
+            <label asp-for="Name">Nombre del producto:</label>
+            <input asp-for="Name" class="admin-input" type="text" id="Name" name="Name" placeholder="Nombre del producto">
+        </div>
+        <div class="form-admin__product-details">
+            <textarea asp-for="Description" id="Description" cols="100" rows="10" placeholder="Descripción del producto"></textarea>
+        </div>
+        <div class="form-admin__product-details">
+            <label asp-for="SKU">SKU:</label>
+            <input class="admin-input" type="text" asp-for="SKU" name="sku" placeholder="SSK111AB001">
+            <label asp-for="Price">Precio:</label> 
+            <input class="admin-input" asp-for="Price" name="price" type="text" placeholder="$ 0.000,00">
+            <label asp-for="Stock">Stock:</label> 
+            <input class="admin-input" asp-for="Stock" type="text" placeholder="0">
+        </div>
+        <div class="form-admin__product-details">
+            <label for="descuento">Descuento: </label>
+            <input class="admin-input" type="text" name="sku" placeholder="0%">
+            <label for="cuotas">Cuotas: </label>
+            <select name="cuotas" id="cuotas">
+                <option value="">3 cuotas sin interés</option>
+                <option value="">6 cuotas sin interés</option>
+                <option value="">12 cuotas sin interés</option>
+            </select>
+        </div>
+        <div class="form-admin__product-details">
+            <label for="img">Imágenes: </label><input type="file" accept="image/png,image/jpeg" id="img" multiple>
+        </div>
+        <div class="form-admin__product-details form-admin__img-container">
+            <div>
+                <img src="@Html.DisplayFor(model => model.Img)" alt="" class="admin-input"><p>Frente</p>
+                <input type="hidden" asp-for="Img" value="@Model.Img" />
+            </div>
+            <div>
+                <img src="@Html.DisplayFor(model => model.ImgCaja)" alt="" class="admin-input"><p>Dorso</p>
+                <input type="hidden" asp-for="ImgCaja" value="@Model.ImgCaja" />
+            </div>
+        </div>
+        <div class="form-admin__product-details">
+            <input class="form-admin__btn" type="submit" value="Modificar producto">
+        </div>
+    </form>
+
+</main>

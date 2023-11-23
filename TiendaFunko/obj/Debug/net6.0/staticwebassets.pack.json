@@ -1,0 +1,753 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TiendaFunko.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TiendaFunko.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\3e50cd79-3597-493d-866b-dca8f537bbe1_dragonite-1.webp",
+      "PackagePath": "staticwebassets\\img\\3e50cd79-3597-493d-866b-dca8f537bbe1_dragonite-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\6c6cd710-d4a7-4d6c-bd2b-a911e68ae08b_dragonite-1.webp",
+      "PackagePath": "staticwebassets\\img\\6c6cd710-d4a7-4d6c-bd2b-a911e68ae08b_dragonite-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\9ffc313c-ac96-4489-9727-712b71c4234c_dragonite-box.webp",
+      "PackagePath": "staticwebassets\\img\\9ffc313c-ac96-4489-9727-712b71c4234c_dragonite-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\b54ac95c-7204-4eff-94d4-8545caaa085f_dragonite-box.webp",
+      "PackagePath": "staticwebassets\\img\\b54ac95c-7204-4eff-94d4-8545caaa085f_dragonite-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\branding\\isotype.svg",
+      "PackagePath": "staticwebassets\\img\\branding\\isotype.svg"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\branding\\logo_light_horizontal.svg",
+      "PackagePath": "staticwebassets\\img\\branding\\logo_light_horizontal.svg"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\eb014d18-6631-43ec-aef8-1977a2a7f23c_dragonite-1.webp",
+      "PackagePath": "staticwebassets\\img\\eb014d18-6631-43ec-aef8-1977a2a7f23c_dragonite-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\f7e25f9a-79a0-4305-b723-10eb7388c4fb_dragonite-box.webp",
+      "PackagePath": "staticwebassets\\img\\f7e25f9a-79a0-4305-b723-10eb7388c4fb_dragonite-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\funkos-banner.webp",
+      "PackagePath": "staticwebassets\\img\\funkos-banner.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\harry-potter\\harry-1.webp",
+      "PackagePath": "staticwebassets\\img\\harry-potter\\harry-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\harry-potter\\harry-box.webp",
+      "PackagePath": "staticwebassets\\img\\harry-potter\\harry-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\harry-potter\\hermione-1.webp",
+      "PackagePath": "staticwebassets\\img\\harry-potter\\hermione-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\harry-potter\\hermione-box.webp",
+      "PackagePath": "staticwebassets\\img\\harry-potter\\hermione-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\harry-potter\\luna-1.webp",
+      "PackagePath": "staticwebassets\\img\\harry-potter\\luna-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\harry-potter\\luna-box.webp",
+      "PackagePath": "staticwebassets\\img\\harry-potter\\luna-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\harry-potter\\snape-patronus-1.webp",
+      "PackagePath": "staticwebassets\\img\\harry-potter\\snape-patronus-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\harry-potter\\snape-patronus-box.webp",
+      "PackagePath": "staticwebassets\\img\\harry-potter\\snape-patronus-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\icons\\cart-icon.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\cart-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\icons\\delete_trash.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\delete_trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\icons\\edit_pencil.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\edit_pencil.svg"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\icons\\search_icon.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\search_icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\icons\\x.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\x.svg"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\charmander-1.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\charmander-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\charmander-box.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\charmander-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\dragonite-1.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\dragonite-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\dragonite-box.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\dragonite-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\pidgeotto-1.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\pidgeotto-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\pidgeotto-box.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\pidgeotto-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\pikachu-1.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\pikachu-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\pikachu-box.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\pikachu-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\vulpix-1.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\vulpix-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\pokemon\\vulpix-box.webp",
+      "PackagePath": "staticwebassets\\img\\pokemon\\vulpix-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\star-wars\\baby-yoda-1.webp",
+      "PackagePath": "staticwebassets\\img\\star-wars\\baby-yoda-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\star-wars\\baby-yoda-box.webp",
+      "PackagePath": "staticwebassets\\img\\star-wars\\baby-yoda-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\star-wars\\bobbafeth-1.webp",
+      "PackagePath": "staticwebassets\\img\\star-wars\\bobbafeth-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\star-wars\\bobbafeth-box.webp",
+      "PackagePath": "staticwebassets\\img\\star-wars\\bobbafeth-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\star-wars\\luke-1.webp",
+      "PackagePath": "staticwebassets\\img\\star-wars\\luke-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\star-wars\\luke-box.webp",
+      "PackagePath": "staticwebassets\\img\\star-wars\\luke-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\star-wars\\trooper-1.webp",
+      "PackagePath": "staticwebassets\\img\\star-wars\\trooper-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\img\\star-wars\\trooper-box.webp",
+      "PackagePath": "staticwebassets\\img\\star-wars\\trooper-box.webp"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\js\\glide.js",
+      "PackagePath": "staticwebassets\\js\\glide.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\js\\item.js",
+      "PackagePath": "staticwebassets\\js\\item.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\.babelrc",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\.babelrc"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\.editorconfig",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\.editorconfig"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\.eslintrc",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\.eslintrc"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\.npmignore",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\.npmignore"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\.stylelintrc",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\.stylelintrc"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\README.md",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\build\\banner.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\build\\banner.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\build\\build.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\build\\build.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\build\\build.min.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\build\\build.min.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\build\\esm.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\build\\esm.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\build\\esm.modular.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\build\\esm.modular.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\build\\umd.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\build\\umd.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\build\\umd.min.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\build\\umd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\entry\\entry-complete.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\entry\\entry-complete.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\entry\\entry-modular.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\entry\\entry-modular.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\jest.config.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\jest.config.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\package-lock.json",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\package.json",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\assets\\sass\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\assets\\sass\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\assets\\sass\\glide.core.scss",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\assets\\sass\\glide.core.scss"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\assets\\sass\\glide.theme.scss",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\assets\\sass\\glide.theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\anchors.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\anchors.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\autoplay.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\autoplay.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\breakpoints.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\breakpoints.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\build.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\build.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\clones.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\clones.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\controls.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\controls.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\direction.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\direction.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\gaps.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\gaps.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\html.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\html.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\images.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\images.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\keyboard.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\keyboard.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\move.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\move.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\peek.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\peek.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\resize.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\resize.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\run.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\run.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\sizes.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\sizes.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\swipe.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\swipe.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\transition.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\transition.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\components\\translate.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\components\\translate.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\core\\event\\events-binder.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\core\\event\\events-binder.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\core\\event\\events-bus.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\core\\event\\events-bus.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\core\\index.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\core\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\defaults.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\defaults.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\index.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\mutator\\index.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\mutator\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\mutator\\transformers\\focusing.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\mutator\\transformers\\focusing.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\mutator\\transformers\\gap.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\mutator\\transformers\\gap.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\mutator\\transformers\\grow.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\mutator\\transformers\\grow.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\mutator\\transformers\\peeking.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\mutator\\transformers\\peeking.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\mutator\\transformers\\rtl.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\mutator\\transformers\\rtl.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\utils\\detect-passive-event.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\utils\\detect-passive-event.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\utils\\dom.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\utils\\dom.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\utils\\log.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\utils\\log.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\utils\\object.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\utils\\object.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\utils\\string.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\utils\\string.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\utils\\time.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\utils\\time.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\utils\\unit.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\utils\\unit.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\src\\utils\\wait.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\src\\utils\\wait.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\fixtures\\html.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\fixtures\\html.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\fixtures\\query.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\fixtures\\query.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\fixtures\\transition.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\fixtures\\transition.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\functional\\autoplay.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\functional\\autoplay.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\functional\\carousel.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\functional\\carousel.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\functional\\classes.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\functional\\classes.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\functional\\destroy.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\functional\\destroy.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\functional\\go.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\functional\\go.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\functional\\slider.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\functional\\slider.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\functional\\update.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\functional\\update.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\integration\\events.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\integration\\events.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\integration\\instance.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\integration\\instance.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\unit\\dom.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\unit\\dom.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\unit\\events-binder.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\unit\\events-binder.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\unit\\log.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\unit\\log.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\unit\\mount.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\unit\\mount.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\unit\\object.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\unit\\object.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\unit\\string.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\unit\\string.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\glide-3.6.1\\tests\\unit\\unit.test.js",
+      "PackagePath": "staticwebassets\\lib\\glide-3.6.1\\tests\\unit\\unit.test.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\prueba\\source\\repos\\TiendaFunko\\TiendaFunko\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TiendaFunko.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TiendaFunko.props",
+      "PackagePath": "build\\TiendaFunko.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TiendaFunko.props",
+      "PackagePath": "buildMultiTargeting\\TiendaFunko.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TiendaFunko.props",
+      "PackagePath": "buildTransitive\\TiendaFunko.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

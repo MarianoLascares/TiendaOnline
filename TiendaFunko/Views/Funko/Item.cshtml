@@ -1,0 +1,69 @@
+﻿@model TiendaFunko.Models.ItemViewModel
+
+<section class="hero">
+    <article class="hero__content container">
+        <h3 class="hero__title">Nuevos Ingresos</h3>
+        <p class="hero__text">Descubrí el próximo Funko Pop de tu colección</p>
+        <a class="hero__link" href="pages/shop.html">SHOP</a>
+    </article>
+</section>
+<main class="main-container">
+    <section class="collection container">
+        <article class="collection__content">
+            <h3 class="collection__title">@Html.DisplayFor(modelItem => modelItem.FunkoPrincipal.Name)</h3>
+            <p class="collection__text-item">@Html.DisplayFor(modelItem => modelItem.FunkoPrincipal.Description)</p>
+            <p class="collection__text-item">$ @Html.DisplayFor(modelItem => modelItem.FunkoPrincipal.Price)</p>
+            <div class="collection__button-content">
+                <input type="number" name="quantity" id="quantity" class="collection__input quantity" placeholder="0">
+                <div class="collection__button-div">
+                    <button id="subtract" class="collection__button-add add">+</button>
+                    <button id="add" class="collection__button-add subtract">-</button>
+                </div>
+                <form asp-controller="Facturacion" asp-action="AddToCart" method="post">
+                    <input type="hidden" name="idUser" value="1" />
+                    <input type="hidden" name="idFunko" value="@Model.FunkoPrincipal.Id" />
+                    <button class="collection__link-item" type="submit">Agregar al Carrito</button>
+                </form>
+                <!--<a class="collection__link-item" asp-controller="Facturacion" asp-action="AddToCart" asp-route-idUser="1" asp-route-idFunko="@Model.FunkoPrincipal.Id">Agregar al Carrito</a>-->
+            </div>
+
+            <p class="card-item__promo">Ver métodos de pago - 3 CUOTAS SIN INTERÉS</p>
+        </article>
+        <picture class="collection__cover">
+            <img src="@Html.DisplayFor(modelItem => modelItem.FunkoPrincipal.Img)"
+                 alt="Figura coleccionable Funko de Grogu de la serie The Mandalorian">
+        </picture>
+    </section>
+    <section class="slider container glide">
+        <h2 class="slider__title">PRODUCTOS RELACIONADOS</h2>
+        <div class="glide__track" data-glide-el="track">
+            <ul class="slider__items glide__slides">
+                @foreach(var item in Model.FunkosRelacionados){
+                <li class="slider__item glide__slide">
+                    <article class="card-item">
+                        <a class="card-item__link" asp-action="Item" asp-route-id="@item.Id">
+                            <picture class="card-item__cover">
+                                <span class="card-item__tag">Nuevo</span>
+                                <img class="card-item__img--front" src="@Html.DisplayFor(modelItem => item.Img)"
+                                         alt="@Html.DisplayFor(modelItem => item.DescriptionImg)">
+                                <img class="card-item__img--back" src="@Html.DisplayFor(modelItem => item.ImgCaja)"
+                                         alt="@Html.DisplayFor(modelItem => item.DescriptionImgCaja)">
+                            </picture>
+                            <div class="card-item__content">
+                                <p class="card-item__licence">@Html.DisplayFor(modelItem => item.ClasificacionNavigation.Descripcion)</p>
+                                <p class="card-item__name">@Html.DisplayFor(modelItem => item.Name)</p>
+                                <p class="card-item__price">@Html.DisplayFor(modelItem => item.Price)</p>
+                                <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
+                            </div>
+                        </a>
+                    </article>
+                </li>
+                }
+            </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon icon="tabler:chevron-left"></iconify-icon></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="tabler:chevron-right"></iconify-icon></button>
+        </div>
+    </section>
+</main>

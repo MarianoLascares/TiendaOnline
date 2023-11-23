@@ -1,0 +1,81 @@
+﻿@model TiendaFunko.Models.Facturacion
+
+@{
+    if (Context.Session.GetString("usuario") == null)
+    {
+        Context.Response.Redirect("../Usuario/Login");
+    }
+}
+
+<main class="main-container">
+    <section class="container cart__items--head">
+        <h1 class="cart__title">CARRITO DE COMPRAS</h1>
+        <div class="cart__article--th">
+            <p class="cart__article--text">DETALLE DE PRODUCTO</p>
+            <p class="cart__article--text">CANTIDAD</p>
+            <p class="cart__article--text">TOTAL</p>
+        </div>
+    </section>
+    <section class="container cart__items--item">
+
+        @foreach (var item in Model.FacturaProductoNavigation){
+        <div class="cart__table cart__item">
+            <div class="cart__item--item">
+                <picture class="cart__cover">
+                        <img src="@Html.DisplayFor(modelItem => item.FunkoNavigation.Img)" alt="">
+                </picture>
+                <article class="cart__article">
+                        <h2 class="cart__item--name">@Html.DisplayFor(modelItem => item.FunkoNavigation.Name)</h2>
+                        <p class="cart__item--ref"> @Html.DisplayFor(modelItem => item.FunkoNavigation.ClasificacionNavigation.Descripcion)</p>
+                        <p class="cart__title--price">Precio: @Html.DisplayFor(modelItem => item.FunkoNavigation.Price)</p>
+                </article>
+            </div>
+            <div class="cart__item--amount">
+                <div class="cart__amount">
+                        <input type="number" name="" class="collection__input quantity" placeholder="@Html.DisplayFor(modelItem => item.Cantidad)">
+                    <div class="collection__button-div">
+                        <button class="collection__button-add add">+</button>
+                        <button class="collection__button-add subtract">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart__item--tprice">
+                <p class="cart__price">$ @Html.DisplayFor(modelItem => item.Total)</p>
+                <!--<form asp-controller="FacturaProducto" asp-action="Delete" method="post">
+                    <a class="nabvar__cart" asp-route-id="@item.Id">
+                        <img class="cart__item--cancel" src="../../img/icons/x.svg" alt="Quitar del carrito">
+                    </a>
+                </form>-->
+                    <form asp-controller="FacturaProducto" asp-action="Delete" method="post" asp-route-id="@item.Id">
+                        <button type="submit" class="nabvar__cart">
+                            <img class="cart__item--cancel" src="../../img/icons/x.svg" alt="Quitar del carrito" />
+                        </button>
+                    </form>
+            </div>
+        </div>
+        }
+
+    </section>
+    <section class="cart__resumen container">
+        <h1 class="cart__title">RESUMEN</h1>
+        <div class="cart__resume--content">
+            <div class="cart__resume--text">
+                <p>CANTIDAD DE ELEMENTOS</p>
+                <p>@Model.FacturaProductoNavigation.Count()</p>
+            </div>
+            <div class="cart__resume--text">
+                <p>SUBTOTAL</p>
+                <p>$ @Html.DisplayFor(modelItem => modelItem.Total)</p>
+            </div>
+            <div class="cart__resume--text">
+                <p>ENVIO</p>
+                <p>$ 0,00</p>
+            </div>
+            <div class="cart__resume--total">
+                <p>TOTAL</p>
+                <p>$@Html.DisplayFor(modelItem => modelItem.Total)</p>
+            </div>
+        </div>
+        <a class="collection__link-item cart__link" href="">IR A PAGAR</a>
+    </section>
+</main>

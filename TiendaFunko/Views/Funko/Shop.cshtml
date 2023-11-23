@@ -1,0 +1,69 @@
+﻿@model IEnumerable<TiendaFunko.Models.Funko>
+
+<main class="main-container-shop container">
+    <aside class="aside">
+        <form action="">
+            <h1 class="aside__title">BUSCAR</h1>
+            <input type="text" placeholder="Item o categoria" class="input__text">
+            <h1 class="aside__title">ORDENAR POR</h1>
+            <select name="select" aria-placeholder="Mayor a menor">
+                <option value="value1" selected>Mayor a Menor</option>
+                <option value="value2">Mas vendidos</option>
+            </select>
+            <h1 class="aside__title">PRECIO</h1>
+            <div class="input__precio">
+                <label for="min">MIN</label>
+                <input type="number" id="min">
+                <p>-</p>
+                <label for="max">MAX</label>
+                <input type="number" id="max">
+            </div>
+            <h1 class="aside__title">FILTRAR</h1>
+            <div>
+                <label for="nuevo" class="input__check">
+                    <input type="checkbox" id="nuevo">NUEVOS
+                </label>
+            </div>
+            <div>
+                <label for="ofertas" class="input__check">
+                    <input type="checkbox" id="ofertas">OFERTAS
+                </label>
+            </div>
+            <div>
+                <label for="especial" class="input__check">
+                    <input type="checkbox" id="especial">EDICION ESPECIAL
+                </label>
+                <div>
+                    <label for="favoritos" class="input__check">
+                        <input type="checkbox" id="favoritos">FAVORITOS
+                    </label>
+                </div>
+            </div>
+        </form>
+    </aside>
+    <section class="slider-shop">
+        <ul class="slider__items-shop">
+            @foreach (var item in Model){
+            <li class="slider__item-shop">
+                <article class="card-item">
+                    <a class="card-item__link" asp-action="Item" asp-route-id="@item.Id">
+                        <picture class="card-item__cover">
+                            <span class="card-item__tag">Nuevo</span>
+                            <img class="card-item__img--front" src="@Html.DisplayFor(modelItem => item.Img)"
+                                 alt="Figura coleccionable Funko de un Stromtrooper">
+                                <img class="card-item__img--back" src="@Html.DisplayFor(modelItem => item.ImgCaja)"
+                                 alt="Figura coleccionable Funko de un Stromtrooper en caja">
+                        </picture>
+                        <div class="card-item__content">
+                            <p class="card-item__licence">@Html.DisplayFor(modelItem => item.ClasificacionNavigation.Descripcion)</p>
+                                <p class="card-item__name">@Html.DisplayFor(modelItem => item.Name)</p>
+                                <p class="card-item__price">@Html.DisplayFor(modelItem => item.Price)</p>
+                            <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+            }
+        </ul>
+    </section>
+</main>
