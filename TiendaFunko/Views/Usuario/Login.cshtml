@@ -7,11 +7,11 @@
             <label asp-for="Email">Email</label>
             <input class="admin-input" asp-for="Email" type="email" name="Email" id="Email" placeholder="ejemplo@correo.com">
             <span asp-validation-for="Email"></span>
-            <span asp-validation-for="Password"></span>
         </div>
         <div class="form-admin__product-details login-container__details">
             <label asp-for="Password">Contraseña</label>
             <input class="admin-input" type="password" asp-for="Password" name="Password" id="Password" placeholder="**********">
+            <span asp-validation-for="Password"></span>
         </div>
         <span class="red-text">@ViewBag.errorLogin</span>
         <div class="form-admin__product-details login-container-buttons">

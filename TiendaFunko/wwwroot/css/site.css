@@ -20,13 +20,13 @@
     --base-font: 'Inter', sans-serif;
     --alternative-font: 'Raleway', sans-serif;
     /* Font-sizes */
-    --font-display: 4.6em;
-    --font-jumbo: 3.8em;
-    --font-xlarge: 3em;
-    --font-large: 2.4em;
-    --font-medium: 1.8em;
-    --font-small: 1.6em;
-    --font-xsmall: 1.2em;
+    --font-display: 42px;
+    --font-jumbo: 38px;
+    --font-xlarge: 30px;
+    --font-large: 24px;
+    --font-medium: 18px;
+    --font-small: 16px;
+    --font-xsmall: 14px;
     /* Spacings */
     --spacing-128: 12.8rem;
     --spacing-68: 6.8rem;
@@ -73,7 +73,7 @@ ol {
 }
 
 p {
-    font-size: 1.8em;
+    font-size: var(--font-medium);
 }
 
 img {
@@ -669,7 +669,7 @@ iconify-icon {
 }
 
 .title-container-h1 {
-    font-size: xx-large;
+    font-size: var(--font-jumbo);
 }
 
 .login-container p {
@@ -694,7 +694,7 @@ iconify-icon {
 
 .link-password {
     color: var(--secondary-solid);
-    font-size: var(--font-xsmall);
+    font-size: var(--font-medium);
 }
 
 .login-container-buttons {
@@ -714,7 +714,7 @@ iconify-icon {
 }
 
 .check-loguin {
-    font-size: 14px;
+    font-size: var(--font-xsmall);
 }
 
 
@@ -725,7 +725,7 @@ iconify-icon {
 
 .form-admin__select {
     font-family: var(--alternative-font);
-    font-size: var(--font-small);
+    font-size: var(--font-large);
     font-weight: 300;
     line-height: 29px;
     letter-spacing: 0.04em;
@@ -734,7 +734,7 @@ iconify-icon {
 
 .form-admin__product-details {
     font-family: Inter;
-    font-size: var(--font-medium);
+    font-size: var(--font-large);
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0.04em;
@@ -750,15 +750,13 @@ iconify-icon {
     padding-left: var(--spacing-12);
 }
 
-
-
 .form-admin__btn {
     width: 175px;
     height: 44.33px;
     top: 885.3px;
     left: 115.55px;
     font-family: var(--base-font);
-    font-size: 14px;
+    font-size: var(--font-xsmall);
     font-weight: 600;
     line-height: 17px;
     letter-spacing: 0em;
@@ -804,8 +802,12 @@ iconify-icon {
 
 .add-container {
     display: flex;
-    font-size: 14px;
+    /*font-size: var(--font-large);*/
     align-items: center;
+}
+
+.add-text {
+    font-size: var(--font-large);
 }
 
 .add-listado_button {
@@ -820,7 +822,7 @@ iconify-icon {
 }
 
 .tabla-listado {
-    font-size: large;
+    font-size: var(--font-large);
     width: 100%;
     text-align: left;
     margin-left: 10px;
@@ -832,13 +834,26 @@ iconify-icon {
 }
 
 .search-icon {
-    font-size: 35px;
+    font-size: var(--font-xlarge);
 }
 
 .edit-icon {
     color: dodgerblue;
+    font-size: var(--font-xlarge);
 }
 
 .delete-icon {
     color: red;
+    font-size: var(--font-xlarge);
+}
+
+.delete-list{
+    display:flex
+}
+
+.delete-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
 }

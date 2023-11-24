@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using TiendaFunko.Models;
 
 namespace TiendaFunko.Controllers
@@ -13,14 +15,44 @@ namespace TiendaFunko.Controllers
         {
             this.context = context;
         }
+
         public async Task<IActionResult> Listado()
         {
-            return View(await context.Funko.Include(fc => fc.ClasificacionNavigation).ToArrayAsync());
+            var funkosJson = TempData["Funkos"] as string;
+
+            if (string.IsNullOrEmpty(funkosJson))
+            {
+                return View(await context.Funko.Include(fc => fc.ClasificacionNavigation).ToArrayAsync());
+            }
+
+            var jsonOptions = new JsonSerializerOptions
+            {
+                ReferenceHandler = ReferenceHandler.Preserve,
+                MaxDepth = 64
+            };
+
+            var funkos = JsonSerializer.Deserialize<List<Funko>>(funkosJson, jsonOptions); // Convertir de nuevo a lista al recuperar
+
+            return View(funkos);
         }
 
         public async Task<IActionResult> Shop()
         {
-            var funkos = await context.Funko.Include(fc => fc.ClasificacionNavigation).ToListAsync();
+            var funkosJson = TempData["Funkos"] as string;
+
+            if (string.IsNullOrEmpty(funkosJson))
+            {
+                return View(await context.Funko.Include(fc => fc.ClasificacionNavigation).ToArrayAsync());
+            }
+
+            var jsonOptions = new JsonSerializerOptions
+            {
+                ReferenceHandler = ReferenceHandler.Preserve, // Preservar referencias para evitar ciclos
+                MaxDepth = 64 // Establecer la profundidad máxima permitida
+            };
+
+            var funkos = JsonSerializer.Deserialize<List<Funko>>(funkosJson, jsonOptions); // Convertir de nuevo a lista al recuperar
+
             return View(funkos);
         }
 
@@ -137,6 +169,68 @@ namespace TiendaFunko.Controllers
             }
 
             return View(funko);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Search(
+            string searchString, string orderBy, int minPrice, 
+            int maxPrice, bool nuevo, bool ofertas, bool especial, bool favoritos)
+        {
+            if(
+                searchString == null &&
+                orderBy == "value1" &&
+                minPrice == 0 &&
+                maxPrice == 0 &&
+                nuevo == false &&
+                ofertas == false &&
+                especial == false &&
+                favoritos == false
+                )
+            {
+                return RedirectToAction("Shop");
+            }
+
+            if(maxPrice == 0)
+            {
+                maxPrice = 99999;
+            }
+
+            var resultados = await context.Funko
+                .Include(f => f.ClasificacionNavigation)
+                .Where(f => f.Name.Contains(searchString) || f.ClasificacionNavigation.Descripcion.Contains(searchString)
+                        && (minPrice <= f.Price && f.Price <= maxPrice))
+                .OrderBy(f => orderBy == "value1" ? f.Price : f.Id)
+                .ToListAsync();
+
+            var jsonOptions = new JsonSerializerOptions
+            {
+                ReferenceHandler = ReferenceHandler.Preserve, // Preservar referencias para evitar ciclos
+                MaxDepth = 64 // Establecer la profundidad máxima permitida
+            };
+
+            TempData["Funkos"] = JsonSerializer.Serialize(resultados, jsonOptions); // Convertir a JSON antes de almacenar en TempData
+
+            return RedirectToAction("Shop");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SearchList(
+            string searchString)
+        {
+            var resultados = await context.Funko
+        .Include(f => f.ClasificacionNavigation)
+        .Where(f => f.Name.Contains(searchString) || f.ClasificacionNavigation.Descripcion.Contains(searchString))
+        .ToListAsync();
+
+            var jsonOptions = new JsonSerializerOptions
+            {
+                ReferenceHandler = ReferenceHandler.Preserve, // Preservar referencias para evitar ciclos
+                MaxDepth = 64 // Establecer la profundidad máxima permitida
+            };
+
+            TempData["Funkos"] = JsonSerializer.Serialize(resultados, jsonOptions); // Convertir a JSON antes de almacenar en TempData
+
+            return RedirectToAction("Listado");
         }
 
         [HttpPost]

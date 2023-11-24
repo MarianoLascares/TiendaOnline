@@ -1,15 +1,17 @@
 ﻿@model IEnumerable<TiendaFunko.Models.Funko>
 
 <main class="container">
-    <div class="buscador">
-        <iconify-icon class="search-icon" icon="material-symbols:search"></iconify-icon>
-        <input type="text" class="search-input" name="" id="" placeholder="codigo, nombre o categoria">
-    </div>
-    <div class="title-container">
+    <form asp-action="SearchList" method="post">
+        <div class="buscador">
+            <iconify-icon class="search-icon" icon="material-symbols:search"></iconify-icon>
+            <input name="searchString" type="text" placeholder="codigo, nombre o categoria">
+        </div>
+    </form>
+    <div class="title-container ">
         <h1 class="title-container-h1">
             LISTADO DE PRODUCTOS</h1>
             <div class="add-container">
-                <h2>AGREGAR</h2>
+                <h2 class="add-text">AGREGAR</h2>
                 <a asp-action="Create">
                     <button class="add-listado_button">
                         <iconify-icon class="add-icon" icon="mingcute:add-fill"></iconify-icon>
@@ -32,15 +34,18 @@
                 <td>@Html.DisplayFor(modelItem => item.Name)</td>
                 <td>@Html.DisplayFor(modelItem => item.ClasificacionNavigation.Descripcion)</td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">
-                    <iconify-icon class="edit-icon" icon="ic:baseline-edit"></iconify-icon>
-                </a>
-                <a asp-action="Delete" asp-route-id="@item.Id">
-                    <iconify-icon class="delete-icon" icon="material-symbols:delete"></iconify-icon>
-                </a>
+                <div class="delete-list">
+                    <a asp-action="Edit" asp-route-id="@item.Id">
+                        <iconify-icon class="edit-icon" icon="ic:baseline-edit"></iconify-icon>
+                    </a>
+                    <form asp-action="Delete" method="post" asp-route-id="@item.Id">
+                            <button type="submit" class="delete-button">
+                            <iconify-icon class="delete-icon" icon="material-symbols:delete"></iconify-icon>
+                        </button>
+                    </form>
+                </div>
             </td>
         </tr>
         }
     </table>
-
 </main>

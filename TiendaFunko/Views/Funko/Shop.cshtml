@@ -2,40 +2,40 @@
 
 <main class="main-container-shop container">
     <aside class="aside">
-        <form action="">
+        <form asp-action="Search" method="post">
             <h1 class="aside__title">BUSCAR</h1>
-            <input type="text" placeholder="Item o categoria" class="input__text">
+            <input type="text" name="searchString" placeholder="Item o categoria" class="input__text">
             <h1 class="aside__title">ORDENAR POR</h1>
-            <select name="select" aria-placeholder="Mayor a menor">
+            <select name="orderBy" aria-placeholder="Mayor a menor">
                 <option value="value1" selected>Mayor a Menor</option>
                 <option value="value2">Mas vendidos</option>
             </select>
             <h1 class="aside__title">PRECIO</h1>
             <div class="input__precio">
-                <label for="min">MIN</label>
-                <input type="number" id="min">
+                <label name="minPrice" for="min">MIN</label>
+                <input name="minPrice" type="number" id="min">
                 <p>-</p>
-                <label for="max">MAX</label>
-                <input type="number" id="max">
+                <label name="maxPrice" for="max">MAX</label>
+                <input name="maxPrice" type="number" id="max">
             </div>
             <h1 class="aside__title">FILTRAR</h1>
             <div>
                 <label for="nuevo" class="input__check">
-                    <input type="checkbox" id="nuevo">NUEVOS
+                    <input name="nuevo" type="checkbox" id="nuevo">NUEVOS
                 </label>
             </div>
             <div>
                 <label for="ofertas" class="input__check">
-                    <input type="checkbox" id="ofertas">OFERTAS
+                    <input name="ofertas" type="checkbox" id="ofertas">OFERTAS
                 </label>
             </div>
             <div>
                 <label for="especial" class="input__check">
-                    <input type="checkbox" id="especial">EDICION ESPECIAL
+                    <input name="especial" type="checkbox" id="especial">EDICION ESPECIAL
                 </label>
                 <div>
                     <label for="favoritos" class="input__check">
-                        <input type="checkbox" id="favoritos">FAVORITOS
+                        <input name="favoritos" type="checkbox" id="favoritos">FAVORITOS
                     </label>
                 </div>
             </div>
